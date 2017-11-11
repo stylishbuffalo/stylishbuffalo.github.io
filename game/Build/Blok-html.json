@@ -1,0 +1,14 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Blok-html.data.unityweb",
+"wasmCodeUrl": "Blok-html.wasm.code.unityweb",
+"wasmFrameworkUrl": "Blok-html.wasm.framework.unityweb",
+"asmCodeUrl": "Blok-html.asm.code.unityweb",
+"asmMemoryUrl": "Blok-html.asm.memory.unityweb",
+"asmFrameworkUrl": "Blok-html.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "Blok-html.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}
