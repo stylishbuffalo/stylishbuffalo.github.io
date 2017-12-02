@@ -1,0 +1,26 @@
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('ENTOR YOR PASSWORD PEASENT!!!!!',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "surreal") {
+alert('You Got it Right!');
+window.open('https://stylishbuffalo.github.io/secret');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('YOU FOOL, PREPARE TO DIE!','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
+</FORM>
+</CENTER>
